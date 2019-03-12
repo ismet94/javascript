@@ -16,7 +16,7 @@
 function Pastry(type, flavour, levels, price, occasion) {
     this.type = type;
     this.flavour = flavour;
-    this.levels = levels;
+    this.levels = levels;3333333
     this.price = price;
     this.occasion = occasion;
 }
