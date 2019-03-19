@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("div").animate({
+              left: '250px',
+              opacity: '0.0',
+              height: '150px',
+              width: '150px'
+            });
+          });
+        });
+        </script> 
+
+<p>Click Me To Animate!</p>
+
+<button>Start Animation</button>
+<br><br><br>
+
+<div style="background:#e60202;height:100px;width:100px;position:absolute;border-radius:50%"></div>
+<br><br><br><br><br><br><br>
+<div style="background:#73ff00;height:100px;width:100px;position:absolute;border-radius:50%"></div>
+<br><br><br><br><br><br><br>
+<div style="background:#2153bf;height:100px;width:100px;position:absolute;border-radius:50%"></div>
+</body>
+</html>
